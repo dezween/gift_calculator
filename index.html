@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор подарка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="heading">
+                Калькулятор подарка
+            </h1>
+            <p>В этом приложении вы можете рассчитать стоимость подарка для друга.</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form">
+                <label for="max_price">Максимальная цена подарка лучшему другу по шкале ценности друга 10 из 10</label>
+                <p class="p">
+                    <input type="text" id="max_price" class="max_price" placeholder="Напишите цену">
+                </p>
+
+                <label for="point">Балл по шкале ценности друга от 1 до 10, которому вы хотите подарить подарок</label>
+                <p class="p"><input type="text" id="point" class="point" placeholder="Напишите балл">
+                </p>
+                <p><input type="submit" value="Узнать!" class="max_price_button"></p>
+
+                <label for="">Цена вашего подарка:</label>
+                <p class="p"><span class="result"></span></p>
+                </form>
+            </div>
+    </main>
+    <footer>
+        <span>All rights recerved &copy;</span>
+        <span>Designed by Dezween</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
